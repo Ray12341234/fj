@@ -1,0 +1,34 @@
+{
+  "id": "static.ray",
+  "version": "1.0.0",
+  "name": "Rays playlist",
+  "description": "cool",
+  "resources": ["catalog", "stream"],
+  "types": ["movie"],
+  "catalogs": [{
+    "type": "movie",
+    "id": "staticCatalog",
+    "name": "Rays Movies",
+    "metas": [{
+      "id": "srm1",
+      "type": "movie",
+      "name": "cooler than freeza",
+      "poster": "https://wallpaperaccess.com/full/8418274.jpg",
+      "description": "cooler than freeza",
+      "releaseInfo": "2023"
+    }]
+  }],
+  "streams": {
+    "movie": [{
+      "id": "srm1",
+      "streams": [{
+        "title": "Main Stream",
+        "url": "https://ia601709.us.archive.org/3/items/master-master/master%20%5Bmaster%5D.mp4",
+        "behaviorHints": {
+          "notWebReady": false,
+          "bingeGroup": "default"
+        }
+      }]
+    }]
+  }
+}
